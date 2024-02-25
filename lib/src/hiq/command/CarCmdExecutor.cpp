@@ -8,7 +8,7 @@ using namespace hiq::geometry;
 namespace hiq {
 namespace command {
 
-void CarCmdExecutor::performAction(std::shared_ptr<hiq::vehicle::IVehicle>& car, const char command)
+void CarCmdExecutor::performAction(const std::shared_ptr<hiq::vehicle::IVehicle>& car, const char command)
 {
     switch(command)
     {

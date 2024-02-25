@@ -34,7 +34,7 @@ Point2D CarGame::convertStartingPoint(const std::string& x,
     {
         throw(e);
     }
-    if(position.x < 1 || position.y < 1)
+    if(position.x < 0 || position.y < 0)
     {
         const std::string error{"Invalid starting point (" + std::to_string(position.x) + ", " + std::to_string(position.y) + ")"};
         throw(std::runtime_error(error.c_str()));

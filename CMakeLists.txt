@@ -12,7 +12,7 @@ set(CMAKE_CXX_FLAGS "-Wall -Wextra")
 set(CMAKE_CXX_FLAGS_DEBUG "-g")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
-project(AdventOfCode VERSION 1.0)
+project(HiQ2024 VERSION 1.0)
 
 add_subdirectory(utils)
 add_subdirectory(lib)

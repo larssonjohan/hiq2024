@@ -89,5 +89,5 @@ void Car::goBackward()
     }
 }
 
-} // namespace days
-} // namespace aoc2023
+} // namespace vehicle
+} // namespace hiq
